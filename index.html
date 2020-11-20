@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script src="https://kit.fontawesome.com/e730d5e389.js" crossorigin="anonymous"></script>
+  <script>
+    function changeBackground(color, id) {
+      document.getElementById(id).style.backgroundColor = color;
+    };
+    function changeBorderColor(color, id) {
+      document.getElementById(id).style.borderColor = color;
+    };
+    function scrollToElement(elementClass) {
+      document.querySelector('.' + elementClass).scrollIntoView({behavior: 'smooth'});
+    };
+  </script>
+  <title>Masnoo</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logoAndJoinNow">
+        <a href="#">
+          <img src="./assets/images/logo-1x.png" alt="Logo Masnoo">
+        </a>
+        <a href="#">
+          Join now
+        </a>
+      </div>
+      <div class="headerDescription">
+        <h1>
+          Let's make project<br>
+          management easy
+        </h1>
+        <h2>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+          Etiam et purus a odio finibus bibendum in sit amet leo.<br>
+          Mauris feugiat erat tellus. behind the word mountains.
+        </h2>
+        <div class="headerDescriptionLinks">
+          <a href="#" class="">
+            Get started free
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </a>
+          <a href="#" class="">
+            Learn more
+          </a>
+        </div>
+      </div>
+      <div class="headerScrollDown">
+        <a onclick="scrollToElement('brandsSectionArea')">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  <section class="brandsSection">
+    <div class="brandsSectionArea container">
+      <h2>
+        —
+        Trusted by most popular brands
+        —
+      </h2>
+      <div class="brandsImages">
+        <img src="./assets/images/client-1.png" alt="Coffee">
+        <img src="./assets/images/client-2.png" alt="Cubico">
+        <img src="./assets/images/client-3.png" alt="Hexagon">
+        <img src="./assets/images/client-4.png" alt="Mates">
+        <img src="./assets/images/client-5.png" alt="King">
+        <img src="./assets/images/client-6.png" alt="Nuxeo">
+      </div>
+    </div>
+  </section>
+  <section class="benefitsSection">
+    <div class="benefitsSectionArea container">
+      <h2>
+        See the benefits you can get by working<br>
+        with our application core features
+      </h2>
+      <h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a<br>
+        odio finibus bibendum in sit amet leo. 
+      </h3>
+      <div class="benefits">
+        <div class="benefit">
+          <i class="fas fa-sliders-h"></i>
+          <h3>
+            Flexible projects
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+        </div>
+        <div class="benefit">
+          <i class="far fa-star"></i>
+          <h3>
+            Project timelines
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+        </div>
+        <div class="benefit">
+          <i class="far fa-edit"></i>
+          <h3>
+            Powerful tasks & subtasks
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+        </div>
+        <div class="benefit">
+          <i class="far fa-bookmark"></i>
+          <h3>
+            Project start/End dates
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+        </div>
+        <div class="benefit">
+          <i class="far fa-heart"></i>
+          <h3>
+            Get caught up, instantly
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+        </div>
+        <div class="benefit">
+          <i class="far fa-flag"></i>
+          <h3>
+            Get caught up, instantly
+          </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="perfectDashboardSection">
+    <div class="perfectDashboardArea container">
+      <div class="perfectDashboardItem">
+        <img src="./assets/images/phone-1.png" alt="Working images">
+        <div class="content">
+          <h2>
+            Perfect dashboard
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo.
+          </p>
+          <div class="contentLinks">
+            <a href="#">
+              Explore more
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+            <a href="#">
+              More video
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="perfectDashboardItem">
+        <div class="content">
+          <h2>
+            Perfect dashboard
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo.
+          </p>
+          <div class="contentLinks">
+            <a href="#">
+              Explore more
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+            <a href="#">
+              More video
+            </a>
+          </div>
+        </div>
+        <img src="./assets/images/phone-2.png" alt="Working images">
+      </div>
+      <div class="perfectDashboardItem">
+        <img src="./assets/images/phone-3.png" alt="Working images">
+        <div class="content">
+          <h2>
+            Perfect dashboard
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Mauris feugiat erat tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit amet leo.
+          </p>
+          <div class="contentLinks">
+            <a href="#">
+              Explore more
+              <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+            <a href="#">
+              More video
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonialSection">
+    <div class="testimonialArea container">
+      <h3>
+        See what our experts says about us<br>
+        We've got over 1000s of positive reviews
+      </h3>
+      <h4>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a<br>
+        odio finibus bibendum in sit amet leo.
+      </h4>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, lectus sed enim, vitae iaculis hendrerit interdum in tellus, nunc donec. Non amet morbi sit diam ut. Pedesem  
+          </p>
+          <div class="testimonialPerson">
+            <img src="./assets/images/face-1.jpg" alt="Kevi Anderson profile photo">
+            <div class="personName">
+                <span>
+                  Kevi Anderson
+                </span><br>
+                Co-Company
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, lectus sed enim, vitae iaculis hendrerit interdum in tellus, nunc donec. Non amet morbi sit diam ut. Pedesem
+          </p>
+          <div class="testimonialPerson">
+            <img src="./assets/images/face-2.jpg" alt="Kevi Anderson profile photo">
+            <div class="personName">
+                <span>
+                  Rossy Doe
+                </span><br>
+                Co-Founder
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <p>
+            Lorem ipsum dolor sit amet, lectus sed enim, vitae iaculis hendrerit interdum in tellus, nunc donec. Non amet morbi sit diam ut. Pedesem
+          </p>
+          <div class="testimonialPerson">
+            <img src="./assets/images/face-3.jpg" alt="Kevi Anderson profile photo">
+            <div class="personName">
+                <span>
+                  John Peter
+                </span><br>
+                Employee
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="getStartedSection">
+    <div class="getStartedArea container">
+      <h2>
+        Build faster with instant answers
+      </h2>
+      <a href="#">
+        Get started for free!
+      </a>
+    </div>
+  </section>
+  <section class="plansSection">
+    <div class="plansSectionArea container">
+      <h2>
+        Select the plan that suits you<br>
+        Upgrade, downgrade, or cancel anytime
+      </h2>
+      <h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a<br>
+        odio finibus bibendum in sit amet leo.
+      </h3>
+      <div id="bestValue" class="bestValue"
+      onmouseover="changeBorderColor('#33adff', 'bestPlan'), 
+                  changeBackground('#33adff','bestValue')"
+      onmouseout="changeBorderColor('#33c', 'bestPlan'), 
+                  changeBackground('#33c','bestValue')"
+      >
+        Best value
+      </div>
+      <div class="plansArea">
+        <div class="plan">
+          <h3>
+            Personal plan
+          </h3>
+          <h4>
+            Simpliest plan available
+          </h4>
+          <ul>
+            <h3>
+              <span class="planPrice">
+                $9
+              </span>
+              <span class="planPriceSlash">
+                /
+              </span>
+              Yearly
+            </h3>
+            <li>
+              3 Projects
+            </li>
+            <li>
+              Team collaboration
+            </li>
+            <li>
+              Analytics & reports
+            </li>
+            <li>
+              One user
+            </li>
+          </ul>
+          <a href="#">
+            Choose this plan
+          </a>
+        </div>
+        <div class="bestPlan">
+          <div id="bestPlan" class="plan"
+          onmouseover="changeBorderColor('#33adff', 'bestPlan'), 
+                      changeBackground('#33adff','bestValue')"
+          onmouseout="changeBorderColor('#33c', 'bestPlan'), 
+                      changeBackground('#33c','bestValue')"
+          >
+            <h3>
+              Startup plan
+            </h3>
+            <h4>
+              Simpliest plan available
+            </h4>
+            <ul>
+              <h3>
+                <span class="planPrice">
+                  $29
+                </span>
+                <span class="planPriceSlash">
+                  /
+                </span>
+                Yearly
+              </h3>
+              <li>
+                3 Projects
+              </li>
+              <li>
+                Team collaboration
+              </li>
+              <li>
+                Analytics & reports
+              </li>
+              <li>
+                10 Active users
+              </li>
+            </ul>
+            <a href="#">
+              Choose this plan
+            </a>
+          </div>
+        </div>
+        <div class="plan">
+          <h3>
+            Enterprise plan
+          </h3>
+          <h4>
+            Everything you need
+          </h4>
+          <ul>
+            <h3>
+              <span class="planPrice">
+                $149
+              </span>
+              <span class="planPriceSlash">
+                /
+              </span>
+              Yearly
+            </h3>
+            <li>
+              Unlimited projects
+            </li>
+            <li>
+              Team collaboration
+            </li>
+            <li>
+              Analytics & reports
+            </li>
+            <li>
+              Priority support
+            </li>
+          </ul>
+          <a href="#">
+            Choose this plan
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="joinTrialSection">
+    <div class="joinTrialArea container">
+      <h2>
+        Start your free trial now!
+      </h2>
+      <h3>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a<br>
+        odio finibus bibendum in sit amet leo.
+      </h3>
+      <form action="#" method="">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" id="email" placeholder="Your e-mail"
+          required
+        >
+        <button type="submit">Join now</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footerArea container">
+      <div class="footerItem">
+        <h2 class="title">
+          Address
+        </h2>
+        72, Wallstreet Night, Royal View Road
+      </div>
+      <div class="footerItem">
+        <h2 class="title">
+          Phone
+        </h2>
+        +1 235 7890
+      </div>
+      <div class="footerItem">
+        <h2 class="title">
+          Email
+        </h2>
+        example@mail.com
+      </div>
+      <div class="footerItem">
+        <h2 class="title">
+          Contact with us
+        </h2>
+        <nav>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="footerCopyright">
+      © 2018. All Rights Reserved by Masnoo.<br>
+      <div class="footerRecreation">
+        <a href="https://github.com/christopherldo/">
+          <i class="fab fa-github"></i>
+          Recrated by Christopher de Oliveira
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
