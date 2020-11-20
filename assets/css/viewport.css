@@ -1,0 +1,222 @@
+@media (max-width:1199px){
+  .plansSectionArea .plansArea{
+    flex-flow: wrap;
+  }
+  .plansSection .bestValue{
+    display: none;
+  }
+  .plansArea .plan{
+    margin-top: 50px;
+    height: unset;
+  }
+  .plansArea .plan{
+    order: 2;
+  }
+  .bestPlan .plan{
+    width: 800px;
+  }
+  .footer .footerArea{
+    width: 100%;
+  }
+}
+
+@media (max-width:1023px){
+  .brandsSectionArea .brandsImages{
+    flex-flow: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width:899px){
+  .benefits .benefit{
+    width: 300px;
+  }
+  .perfectDashboardArea .perfectDashboardItem img{
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+  }
+  .plansArea .plan{
+    width: 600px;
+  }
+}
+
+@media (max-width:767px){
+  .container .logoAndJoinNow{
+    justify-content: space-around;
+  }
+  .container .headerDescription{
+    margin-top: 200px;
+  }
+  .container .headerDescription h1{
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .container .headerDescription h2{
+    display: none;
+    color: #333;
+  }
+  .headerDescription .headerDescriptionLinks{
+    margin-top: 200px;
+    display: flex;
+    flex-flow: column;
+  }
+  .headerDescription .headerDescriptionLinks a{
+    padding: 20px;
+    margin-left: 0;
+    background-color: #000;
+    color: #fff;
+  }
+  .headerDescription .headerDescriptionLinks a:nth-child(2):hover{
+    background-color: #33adff;
+    color: #fff;
+    border-bottom: none;
+  }
+  .container .headerScrollDown{
+    display: none;
+  }
+  body .brandsSection{
+    margin-top: 20px;
+  }
+  .benefitsSection .benefitsSectionArea h2{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .benefits .benefit{
+    width: 100%;
+  }
+  .perfectDashboardSection .perfectDashboardItem{
+    flex-flow: column;
+  }
+  .perfectDashboardArea .perfectDashboardItem img{
+    display: none;
+  }
+  .perfectDashboardItem .content{
+    margin-right: 40px;
+  }
+  .perfectDashboardItem:nth-child(2) .content{
+    margin-left: 40px;
+  }
+  .content .contentLinks{
+    display: flex;
+    flex-flow: column;
+  }
+  .content .contentLinks a:nth-child(2){
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .testimonialSection .testimonialArea h3{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .testimonialArea .testimonials{
+    flex-flow: column;
+  }
+  .testimonials .testimonial{
+    display: flex;
+    margin-top: 50px;
+  }
+  .testimonials .testimonial:nth-child(2) p{
+    order: 2;
+  }
+  .testimonials .testimonial p{
+    flex: 2;
+    display: flex;
+    align-items: center;
+  }
+  .testimonial .testimonialPerson{
+    flex-flow: column;
+    flex: 1;
+    align-items: center;
+    margin-top: 0;
+  }
+  .testimonialPerson .personName{
+    margin-left: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .getStartedSection .getStartedArea h2{
+    font-size: 20px;
+  }
+  .joinTrialSection .joinTrialArea h2{
+    font-size: 20px;
+  }
+  .joinTrialSection .joinTrialArea form{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+  }
+  .joinTrialSection .joinTrialArea form input{
+    margin-top: 20px;
+  }
+  .joinTrialSection .joinTrialArea form button{
+    margin-top: 20px;
+  }
+  .plansSection .plansSectionArea h2{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .plansSection .plansSectionArea > h3{
+    display: none;
+  }
+  .plansArea .plan{
+    width: 350px;
+  }
+  .footer .footerArea{
+    flex-flow: column;
+  }
+  .footerArea .footerItem{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:424px){
+  .container .headerDescription h1{
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .brandsSection .brandsSectionArea h2{
+    font-size: 16px;
+  }
+  .plansArea .plan{
+    width: 300px;
+  }
+}
+
+@media (max-width:374px){
+  .container .logoAndJoinNow a:nth-child(2){
+    display: none;
+  }
+  .plansArea .plan{
+    width: 250px;
+  }
+  .footerArea .footerItem{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}
+
+@media (max-width:280px){
+  .plansArea .plan{
+    width: 240px;
+  }
+  .perfectDashboardItem .content h2{
+    font-size: 30px;
+  }
+  .container .headerDescription h1{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .brandsSection .brandsSectionArea h2{
+    font-size: 12px;
+  }
+  .getStartedSection .getStartedArea h2{
+    font-size: 16px;
+  }
+  .plansSection .plansSectionArea h2{
+    font-size: 14px;
+  }
+}
