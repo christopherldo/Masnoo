@@ -47,21 +47,26 @@
     justify-content: space-around;
   }
   .container .headerDescription{
-    margin-top: 200px;
+    margin-top: unset;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
   }
   .container .headerDescription h1{
     font-size: 40px;
     line-height: 50px;
     text-align: center;
+    margin: auto;
   }
   .container .headerDescription h2{
     display: none;
     color: #333;
   }
   .headerDescription .headerDescriptionLinks{
-    margin-top: 200px;
     display: flex;
     flex-flow: column;
+    margin-top: unset;
   }
   .headerDescription .headerDescriptionLinks a{
     padding: 20px;
@@ -69,10 +74,12 @@
     background-color: #000;
     color: #fff;
   }
+  .headerDescription .headerDescriptionLinks a:nth-child(2){
+  border-bottom: none;
+  }
   .headerDescription .headerDescriptionLinks a:nth-child(2):hover{
     background-color: #33adff;
     color: #fff;
-    border-bottom: none;
   }
   .container .headerScrollDown{
     display: none;
